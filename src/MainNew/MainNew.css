@@ -1,0 +1,692 @@
+.section-one {
+  direction: rtl;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.section-gap {
+  padding: 80px 0;
+}
+
+.section-one {
+  background-color: #00927b;
+}
+
+.right-box {
+  position: relative;
+  background-color: #fff;
+}
+
+.right-box .first-back {
+  margin-top: 15px;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.up h2 {
+  color: #00927b;
+  font-size: 35px;
+}
+
+.up {
+  margin-bottom: 40px;
+}
+
+.right-box .first-back .down .info {
+  position: relative;
+  z-index: 1;
+}
+
+.right-box .first-back .down .info h3 {
+  font-size: 16px;
+  color: #ffff;
+}
+
+.right-box .first-back .down .info i {
+  padding-right: 3px;
+  padding-top: 4px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.right-box .first-front {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  margin-right: 80px;
+  margin-left: -20.333%;
+}
+
+.right-box .first-front .img-collage {
+  background-color: #fff;
+  margin: 6px 2px;
+  border-radius: 6px;
+}
+
+.right-box .first-front .results {
+  position: relative;
+  background-color: rgba(91, 99, 86, 0.199);
+  border-radius: 10px;
+  margin: 16px 20px;
+  padding: 10px;
+}
+
+.right-box .first-front .results h3 {
+  font-size: 14px;
+  color: #fff;
+  margin: auto;
+}
+
+.right-box .first-front .results .vs {
+  font-size: 1rem;
+}
+
+.right-box .first-front .results .result-one {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.right-box .first-front .results .first-collage,
+.second-collage {
+  border-radius: 10px;
+}
+
+.right-box .first-front .results .first-collage {
+  background-color: #00927b;
+}
+
+.right-box .first-front .results .second-collage {
+  background-color: #f6c52d;
+}
+
+.right-box .triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 350px solid #00927b;
+  border-left: 350px solid transparent;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.left-box {
+  position: relative;
+  background-color: #fff;
+}
+
+.left-box .second-back {
+  margin-top: 15px;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.left-box .second-back .down .info {
+  position: relative;
+  z-index: 1;
+}
+
+.left-box .second-back .down .info h3 {
+  font-size: 16px;
+  color: #ffff;
+}
+
+.left-box .second-back .down .info i {
+  padding-right: 3px;
+  padding-top: 4px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.left-box .second-front {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  margin-left: 80px;
+  margin-right: -20.333%;
+}
+.filter-white {
+  filter: brightness(0) invert(1);
+}
+.left-box .second-front .collage-name h2 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.left-box .second-front .collage-name h4 {
+  border: 2px solid #00000057;
+  padding: 8px 12px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.progress {
+  height: 8px !important;
+}
+
+.left-box .triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 350px solid #00927b;
+  border-right: 350px solid transparent;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/***** Responsive *****/
+
+@media (max-width: 991.98px) {
+  .left-box .second-front {
+    margin-right: -9.333%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .right-box .first-front,
+  .left-box .second-front {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .right-box .first-front .results .result-one {
+    flex-direction: column;
+  }
+  .up h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .left-box .second-front,
+  .right-box .first-front {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 576.98px) {
+  .right-box .first-front .results .result-one {
+    flex-direction: column;
+  }
+}
+/***** End Responsive *****/
+
+.button-boy,
+.button-girl {
+  display: flex;
+  padding: 45px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  font: 25px !important;
+}
+.button-boy,
+.button-girl {
+  border-radius: 15px;
+  border: 1px solid #f2ece7;
+  background: #fff;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+
+#one
+  > div
+  > div
+  > div:nth-child(1)
+  > div
+  > div.first-front.shadow
+  > div
+  > div
+  > div
+  > div.d-flex.justify-content-between.align-items-center
+  > div
+  > div
+  > img {
+  width: 30px !important;
+  height: 40px !important;
+}
+#one
+  > div
+  > div
+  > div:nth-child(1)
+  > div
+  > div.first-front.shadow
+  > div
+  > div
+  > div
+  > div.d-flex.justify-content-between.align-items-center
+  > div
+  > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.results p {
+  margin: 5px 0;
+  color: #000000;
+  font-size: 13px !important;
+}
+
+#one
+  > div
+  > div
+  > div:nth-child(1)
+  > div
+  > div.first-front.shadow
+  > div
+  > div
+  > div
+  > div.result-one.d-flex.bg-white.justify-content-between
+  > div.second-collage.d-flex.p-2
+  > h3 {
+  padding-right: 5px;
+}
+#one
+  > div
+  > div
+  > div:nth-child(1)
+  > div
+  > div.first-front.shadow
+  > div
+  > div
+  > div
+  > div.result-one.d-flex.bg-white.justify-content-between
+  > div.first-collage.d-flex.p-2
+  > h3 {
+  padding-right: 5px;
+}
+
+/* Mediaaaaaaaaaaaaaaaaaa */
+@media (min-width: 1042px) and (max-width: 1385px) {
+  .right-box .first-front .results {
+    margin: 28px 20px;
+  }
+}
+@media (min-width: 1263px) {
+  .right-box .first-front .results {
+    margin: 31.5px 20px;
+  }
+}
+
+.rounded-1 {
+  border-radius: none;
+}
+
+@media (max-width: 490px) {
+  #one > div > div > div.col-11.col-lg-5.mb-5 {
+    width: 100% !important;
+  }
+  #one > div > div > div.col-11.col-lg-5.mt-5.mt-md-0 {
+    width: 100%;
+  }
+  #one
+    > div
+    > div
+    > div.col-11.col-lg-5.mt-5.mt-md-0
+    > div
+    > div.second-back
+    > div
+    > div:nth-child(1) {
+    display: flex;
+  }
+  #one
+    > div
+    > div
+    > div.col-11.col-lg-5.mb-5
+    > div
+    > div.first-back
+    > div
+    > div:nth-child(2) {
+    display: flex;
+  }
+  #one
+    > div
+    > div
+    > div.col-11.col-lg-5.mb-5
+    > div
+    > div.first-back
+    > div
+    > div.info.d-flex.align-items-center
+    > h3 {
+    margin: 0 !important;
+  }
+  #one
+    > div
+    > div
+    > div.col-11.col-lg-5.mb-5
+    > div
+    > div.first-back
+    > div
+    > div.info.d-flex.align-items-center {
+    justify-content: start;
+  }
+}
+/* old CSS */
+
+.triangle {
+  background-image: linear-gradient(400deg, #00927b 21%, #ffffff 21.1%);
+}
+
+.triangle2 {
+  background-image: linear-gradient(
+    312deg,
+    #00927b,
+    #00927b,
+    #00927b 25%,
+    #ffffff 25.1%
+  );
+}
+
+.bg-green {
+  background-color: #00927b;
+}
+
+.bg-yellow {
+  background-color: #f6c52d;
+}
+
+.bg-gray {
+  background-color: #d9d9d9;
+}
+
+.green {
+  color: #00927b;
+}
+
+.ratt {
+  background-color: #d9d9d9;
+  width: 80%;
+  height: 0.5rem;
+  margin-top: 15px;
+}
+
+.ratt .radd1 {
+  background-color: #00927b;
+  width: 80%;
+  height: 0.5rem;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+  animation: progressAnimation 6s;
+}
+@keyframes progressAnimation {
+  0% {
+    width: 5%;
+    background-color: #29bca4;
+  }
+  100% {
+    width: 80%;
+    background-color: #00927b;
+  }
+}
+
+.ratt2 {
+  background-color: #d9d9d9;
+  width: 80%;
+  height: 0.5rem;
+  margin-top: 15px;
+}
+
+.ratt2 .radd2 {
+  background-color: purple;
+  width: 35%;
+  height: 0.5rem;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+  animation: progressAnimation2 6s;
+}
+
+@keyframes progressAnimation2 {
+  0% {
+    width: 5%;
+    background-color: rgb(186, 58, 186);
+  }
+  100% {
+    width: 35%;
+    background-color: purple;
+  }
+}
+.ratt3 {
+  background-color: #d9d9d9;
+  width: 80%;
+  height: 0.5rem;
+  margin-top: 15px;
+}
+
+.ratt3 .radd3 {
+  background-color: #e54149;
+  width: 17.5%;
+  height: 0.5rem;
+
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+  animation: progressAnimation3 6s;
+}
+
+@keyframes progressAnimation3 {
+  0% {
+    width: 5%;
+    background-color: #e47177;
+  }
+  100% {
+    width: 17.5%;
+    background-color: #e54149;
+  }
+}
+.ratt4 {
+  background-color: #d9d9d9;
+  width: 80%;
+  height: 0.5rem;
+  margin-top: 15px;
+}
+
+.ratt4 .radd4 {
+  background-color: #1e6bb4;
+  width: 8.5%;
+  height: 0.5rem;
+
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+  animation: progressAnimation4 6s;
+}
+
+@keyframes progressAnimation4 {
+  0% {
+    width: 0%;
+    background-color: #3d97eb;
+  }
+  100% {
+    width: 8.5%;
+    background-color: #1e6bb4;
+  }
+}
+
+.ratt5 {
+  background-color: #d9d9d9;
+  width: 80%;
+  height: 0.5rem;
+  margin-top: 15px;
+}
+
+.ratt5 .radd5 {
+  background-color: #ffce00;
+  width: 8.5%;
+  height: 0.5rem;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+  animation: progressAnimation5 6s;
+}
+
+@keyframes progressAnimation5 {
+  0% {
+    width: 0%;
+    background-color: #ffdb4a;
+  }
+  100% {
+    width: 8.5%;
+    background-color: #ffce00;
+  }
+}
+
+.ratt6 {
+  background-color: #d9d9d9;
+  width: 80%;
+  height: 0.5rem;
+  margin-top: 15px;
+}
+
+.ratt6 .radd6 {
+  background-color: #eb5d14;
+  width: 8.5%;
+  height: 0.5rem;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+  animation: progressAnimation6 6s;
+}
+
+@keyframes progressAnimation6 {
+  0% {
+    width: 0%;
+    background-color: #ff9d6c;
+  }
+  100% {
+    width: 8.5%;
+    background-color: #eb5d14;
+  }
+}
+
+.ratt7 {
+  background-color: #d9d9d9;
+  width: 80%;
+  height: 0.5rem;
+  margin-top: 15px;
+}
+
+.ratt7 .radd7 {
+  background-color: #aa8e56;
+  width: 8.5%;
+  height: 0.5rem;
+
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+  animation: progressAnimation7 6s;
+}
+
+@keyframes progressAnimation7 {
+  0% {
+    width: 0%;
+    background-color: #aa8e56;
+  }
+  100% {
+    width: 8.5%;
+    background-color: #aa8e56;
+  }
+}
+
+.ratt8 {
+  background-color: #d9d9d9;
+  width: 80%;
+  height: 0.5rem;
+  margin-top: 15px;
+}
+
+.ratt8 .radd8 {
+  background-color: #00927b;
+  width: 8.5%;
+  height: 0.5rem;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+  animation: progressAnimation8 6s;
+}
+
+@keyframes progressAnimation8 {
+  0% {
+    width: 0%;
+    background-color: #00927b;
+  }
+  100% {
+    width: 8.5%;
+    background-color: #00927b;
+  }
+}
+.line2 {
+  width: 90%;
+  height: 2px;
+  background-color: #d9d9d9;
+}
+
+.long2 {
+  background-color: #d9d9d9;
+  height: 50%;
+}
+
+.move2 {
+  transform: translateX(20%);
+}
+
+.move3 {
+  transform: translateX(-20%);
+}
+
+.w-80 {
+  width: 80% !important;
+}
+.border-grey {
+  color: #d9d9d9;
+}
+.fs-6 {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+.fs-7 {
+  font-size: 13px;
+  color: #000;
+}
+.main-section .right-side .goals-container {
+  margin-top: 20px !important;
+}
+.main-section .line-chart-container {
+  margin-top: 20px !important;
+}
+
+@media (max-width: 1000px) {
+  .main-section .right-side .goals-container {
+    margin-top: 40px !important;
+  }
+  .main-section .line-chart-container {
+    margin-top: 60px !important;
+  }
+  .main-section {
+    padding: 0px !important;
+  }
+}
+
+.boy-img {
+  width: 30px;
+  height: 35px;
+}
+.fs-8 {
+  font-size: 12px;
+}
+
+/* End old CSS */

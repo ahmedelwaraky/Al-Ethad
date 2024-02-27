@@ -1,0 +1,104 @@
+.menu-section {
+  direction: rtl;
+}
+a {
+  text-decoration: none !important;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+.menu-section a {
+  font-size: 15px !important ;
+  color: #686868 !important;
+}
+.hover-green:hover {
+  color: #00927b !important;
+}
+.hover-green a:hover {
+  color: #00927b !important;
+}
+
+.Navbar {
+  position: relative !important;
+}
+.dropdown {
+  position: unset !important;
+}
+.navbar-expand .navbar-nav .dropdown-menu {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  #root > div > div > div.menu-section > nav > button {
+    margin-right: 5px !important;
+  }
+  #root > div > div > div.menu-section > nav > div > div > div {
+    padding-right: 0px !important;
+  }
+  #root > div > div > div.menu-section > nav {
+    padding-bottom: 30px !important;
+  }
+  #root > div > div > div.menu-section > nav > ul {
+    padding-right: 20px !important;
+    padding-top: 10px !important;
+  }
+  #root
+    > div
+    > div
+    > div.menu-section
+    > nav
+    > div
+    > div
+    > div
+    > div
+    > div.nav-item.show.dropdown
+    > div
+    > div {
+    flex-direction: column !important;
+  }
+  .nav-item.show {
+    padding-right: 5px;
+  }
+  .minst-logo,
+  .logo-main {
+    width: 147px !important;
+    height: 50px !important;
+  }
+  div .dropdown-menu.show {
+    padding-right: 0px !important;
+  }
+}
+
+#root > div > div > div.menu-section > nav > ul > span > a {
+  color: #00927b !important;
+}
+
+div .dropdown-menu.show {
+  display: flex;
+  background-color: #60b0a0;
+  color: #fff !important;
+  border: 0;
+  border-radius: 0;
+  padding: 10px 0;
+  margin: 0;
+  padding-right: 50px;
+  right: 0;
+}
+.nav-item.show {
+  background-color: #60b0a0;
+  border-radius: 15px 15px 0 0;
+  color: #fff !important;
+}
+.nav-item.show a {
+  color: #fff !important;
+}
+.nav-item.show img {
+  filter: brightness(0) invert(1);
+}
+.dropdown-item:hover {
+  background: #00927b !important;
+  border-radius: 15px;
+}
+.navbar-container {
+  padding-bottom: 1px !important;
+}
